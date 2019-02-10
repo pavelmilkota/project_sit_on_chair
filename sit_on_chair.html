@@ -17,30 +17,30 @@
                 <li class="menu__item"><a href="#"> o firmie</a>
                     <div class="menu__sub">
                         <div class="pointer"></div>
-                        <ul class="menu__sub">
-                          <li>Aktualności</li>
-                          <li>Nasz team</li>
-                          <li>Historia</li>
+                        <ul>
+                            <li><a href="#">Aktualności</a></li>
+                          <li><a href="#">Nasz team</a></li>
+                          <li><a href="#">Historia</a></li>
                         </ul>
                     </div>
                 </li>
                 <li class="menu__item"><a href="#">galeria</a>
                     <div class="menu__sub">
                         <div class="pointer"></div>
-                        <ul class="menu__sub">
-                            <li>Galeria 1</li>
-                            <li>Galeria 2</li>
-                            <li>Galeria 3</li>
+                        <ul>
+                            <li><a href="#">Aktualności</a></li>
+                            <li><a href="#">Nasz team</a></li>
+                            <li><a href="#">Historia</a></li>
                         </ul>
                     </div>
                 </li>
                 <li class="menu__item"><a href="#">kontakt</a>
                     <div class="menu__sub">
                         <div class="pointer"></div>
-                        <ul class="menu__sub">
-                            <li>Kontakt</li>
-                            <li>Kontakt</li>
-                            <li>Kontakt</li>
+                        <ul>
+                            <li><a href="#">Aktualności</a></li>
+                            <li><a href="#">Nasz team</a></li>
+                            <li><a href="#">Historia</a></li>
                         </ul>
                     </div>
                 </li>
@@ -54,7 +54,7 @@
         <div class="container">
             <div id="left__section_black_chair">
                 <a href="#">
-                    <div class="button left"></div>
+                    <div class="button left green_button"></div>
                 </a>
             </div>
 
@@ -63,11 +63,11 @@
                     <h1>sit <span class="green_text">on</span> our <span class="green_text">chair</span></h1>
                     <p>Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna.</p>
                     <div class="box__button_more">
-                    <a href="#" id="button_more">zobacz więcej</a>
+                    <a href="#" id="button_more" class="green_button">zobacz więcej</a>
                     </div>
                 </div>
                 <a href="#">
-                    <div class="button right"></div>
+                    <div class="button right green_button"></div>
                 </a>
             </div>
         </div>
@@ -102,7 +102,7 @@
 <section>
     <div class="third__section">
         <div class="container">
-            <p class="third__section_title">CENNIK</p>
+            <p class="section_title">CENNIK</p>
             <div class="third__section_boxes">
 
                 <div class="third__section_box" id="box_3_1">
@@ -110,11 +110,20 @@
                         <div class="third__section_circle_s"></div>
                     </div>
                     <p class="third__section_box_title">BASIC PLAN</p>
-                    <div class="third__section_priceCircle"></div>
-                    <div class="third__section_box_content box_content_3_1_1"></div>
-                    <div class="third__section_box_content box_content_3_1_2"></div>
+                    <div class="third__section_priceCircle">
+                        <div class="price">85
+                            <p class="price_sub">99</p>
+                        </div>
+                        <p class="currency">PLN/MSC</p>
+                    </div>
+                    <div class="third__section_box_content">
+                        <p>Zakup towaru + dowóz</p>
+                    </div>
+                    <div class="third__section_box_content">
+                        <p>Serwis</p>
+                    </div>
                     <div class="third__section_button">
-                        <a href="#">DOŁĄCZ</a>
+                        <a href="#" class="green_button">DOŁĄCZ</a>
                     </div>
                 </div>
 
@@ -122,12 +131,24 @@
                     <div class="third__section_circle_l">
                         <div class="third__section_circle_s"></div>
                     </div>
-                    <p class="third__section_box_title">BASIC PLAN</p>
-                    <div class="third__section_priceCircle"></div>
-                    <div class="third__section_box_content box_content_3_1_1"></div>
-                    <div class="third__section_box_content box_content_3_1_2"></div>
+                    <p class="third__section_box_title">STANDARD PLAN</p>
+                    <div class="third__section_priceCircle">
+                        <div class="price">95
+                            <p class="price_sub">99</p>
+                        </div>
+                        <p class="currency">PLN/MSC</p>
+                    </div>
+                    <div class="third__section_box_content">
+                        <p>Zakup towaru + dowóz</p>
+                    </div>
+                    <div class="third__section_box_content">
+                        <p>Serwis</p>
+                    </div>
+                    <div class="third__section_box_content">
+                        <p>Gwarancja 5 lat</p>
+                    </div>
                     <div class="third__section_button">
-                        <a href="#">DOŁĄCZ</a>
+                        <a href="#" class="green_button">DOŁĄCZ</a>
                     </div>
                 </div>
 
@@ -135,22 +156,58 @@
                     <div class="third__section_circle_l">
                         <div class="third__section_circle_s"></div>
                     </div>
-                    <p class="third__section_box_title">BASIC PLAN</p>
-                    <div class="third__section_priceCircle"></div>
-                    <div class="third__section_box_content box_content_3_1_1"></div>
-                    <div class="third__section_box_content box_content_3_1_2"></div>
+                    <p class="third__section_box_title">ADVANCE PLAN</p>
+                    <div class="third__section_priceCircle">
+                        <div class="price">211
+                            <p class="price_sub">00</p>
+                        </div>
+                        <p class="currency">PLN/MSC</p>
+                    </div>
+                    <div class="third__section_box_content">
+                        <p>Zakup towaru + dowóz</p>
+                    </div>
+                    <div class="third__section_box_content">
+                        <p>Serwis</p>
+                    </div>
+                    <div class="third__section_box_content">
+                        <p>Gwarancja 6 lat</p>
+                    </div>
+                    <div class="third__section_box_content">
+                        <p>Porady projektanta</p>
+                    </div>
+
                     <div class="third__section_button">
-                        <a href="#">DOŁĄCZ</a>
+                        <a href="#" class="green_button">DOŁĄCZ</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-
-<section>
-</section>
 <footer>
+    <div class="container">
+        <p class="section_title">KONTAKT</p>
+        <div class="footer__form">
+            <div class="footer__form_left">
+                <form>
+                    <input type="text"  name=name placeholder="Imię">
+                    <input type="email"  name=email placeholder="email">
+                    <textarea placeholder="Wiadomość"></textarea>
+                </form>
+            </div>
+            <div class="footer__form_right">
+                <div class="red_chair"></div>
+                <div class="submit">
+                    <div class="submit__square">
+                        <div class="submit__square_ok"></div>
+                    </div>
+                    <p>Zgadzam się na przetwarzanie danych osobowych</p>
+                </div>
+                <div class="green_button"></div>
+            </div>
+        </div>
+        <div class="footer__bottom"></div>
+    </div>
 </footer>
 </body>
 </html>

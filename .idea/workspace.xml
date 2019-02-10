@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2d71d96-119c-408f-9cc2-7cd1058db4f8" name="Default Changelist" comment="" />
+    <list default="true" id="e2d71d96-119c-408f-9cc2-7cd1058db4f8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/css/sit_on_chair.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/sit_on_chair.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sit_on_chair.html" beforeDir="false" afterPath="$PROJECT_DIR$/sit_on_chair.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -18,11 +21,20 @@
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sit_on_chair.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+            <state relative-caret-position="488">
+              <caret line="205" column="40" selection-start-line="205" selection-start-column="40" selection-end-line="205" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/sit_on_chair.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="484" column="18" selection-start-line="484" selection-start-column="18" selection-end-line="484" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -41,6 +53,9 @@
     <findStrings>
       <find>content</find>
       <find>green_button</find>
+      <find>box</find>
+      <find>box__bu</find>
+      <find>button</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -51,6 +66,8 @@
       <list>
         <option value="$PROJECT_DIR$/dropdown.html" />
         <option value="$PROJECT_DIR$/dropdown_list.css" />
+        <option value="$PROJECT_DIR$/sit_on_chair.html" />
+        <option value="$PROJECT_DIR$/css/sit_on_chair.css" />
       </list>
     </option>
   </component>
@@ -70,6 +87,16 @@
             <path>
               <item name="project_sit_on_chair" type="b2602c69:ProjectViewProjectNode" />
               <item name="project_sit_on_chair" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project_sit_on_chair" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project_sit_on_chair" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project_sit_on_chair" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project_sit_on_chair" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -111,11 +138,12 @@
       <workItem from="1549131085181" duration="11045000" />
       <workItem from="1549337381219" duration="10560000" />
       <workItem from="1549710419343" duration="29000" />
+      <workItem from="1549710465594" duration="11109000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21634000" />
+    <option name="totallyTimeSpent" value="32743000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -133,7 +161,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32876712" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -149,10 +177,23 @@
     <entry file="file://$PROJECT_DIR$/images/box1_img.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/red_chair.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/form_ok.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/sit_on_chair.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+        <state relative-caret-position="488">
+          <caret line="205" column="40" selection-start-line="205" selection-start-column="40" selection-end-line="205" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/sit_on_chair.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="484" column="18" selection-start-line="484" selection-start-column="18" selection-end-line="484" selection-end-column="18" />
         </state>
       </provider>
     </entry>
