@@ -54,7 +54,7 @@
         <div class="container">
             <div id="left__section_black_chair">
                 <a href="#">
-                    <div class="button left green_button"></div>
+                    <div class="button left"></div>
                 </a>
             </div>
 
@@ -67,7 +67,7 @@
                     </div>
                 </div>
                 <a href="#">
-                    <div class="button right green_button"></div>
+                    <div class="button right"></div>
                 </a>
             </div>
         </div>
@@ -190,24 +190,39 @@
         <div class="footer__form">
             <div class="footer__form_left">
                 <form>
-                    <input type="text"  name=name placeholder="Imię">
-                    <input type="email"  name=email placeholder="email">
-                    <textarea placeholder="Wiadomość"></textarea>
+                    <input class="form_font" type="text"  name=name placeholder="Imię">
+                    <input class="form_font" type="email"  name=email placeholder="email">
+                    <textarea class="form_font" placeholder="Wiadomość"></textarea>
                 </form>
             </div>
             <div class="footer__form_right">
                 <div class="red_chair"></div>
                 <div class="submit">
-                    <div class="submit__square">
-                        <div class="submit__square_ok"></div>
-                    </div>
-                    <p>Zgadzam się na przetwarzanie danych osobowych</p>
+                    <label class="submit__box"><span id="submit_text">Zgadzam się na przetwarzanie danych osobowych</span>
+                        <input type="checkbox" name="submit">
+                        <span class="submit__box_ok"></span>
+                    </label>
                 </div>
-                <div class="green_button"></div>
+                <a href="#" class="green_button send_button">WYŚLIJ</a>
             </div>
         </div>
-        <div class="footer__bottom"></div>
+        <div class="bottom">
+            <div id="copyright">Copyright 2014 | All Rights Reserved. - Sit On Chair</div>
+            <div class="bottom_right">
+                <div id="following">
+                    <img src="images/flickr.png" width="33" height="33">
+                    <img src="images/vimeo.png" width="33" height="33">
+                    <img src="images/pinterest.png" width="33" height="33">
+                    <img src="images/twitter.png" width="33" height="33">
+                </div>
+                <div id="sitonchair">SIT <span>ON </span>CHAIR</div>
+            </div>
+
+        </div>
     </div>
 </footer>
 </body>
 </html>
+
+
+
